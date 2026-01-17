@@ -188,6 +188,7 @@ public:
 };
 int main()
 {
+	cout << "Huu Dung sieu cap dep trai";
 	srand(time(NULL));
 }
 
