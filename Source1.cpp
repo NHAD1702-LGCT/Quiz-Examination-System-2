@@ -185,10 +185,18 @@ public:
 		in.ignore();
 		return in;
 	}
+	void setStudentNumber(int studentNumber){
+		this->studentNumber = studentNumber;
+	}
+	void setMajor(string major) {
+		this->major = major;
+	}
+	void setYear(int year) {
+		this->year = year;
+	}
 };
 int main()
 {
-	cout << "Huu Dung sieu cap dep trai";
 	srand(time(NULL));
 }
 
